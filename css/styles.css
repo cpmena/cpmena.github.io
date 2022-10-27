@@ -2,7 +2,6 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  font-size: 1.1rem;
   color: #f8f8f2;
   background-color: #22212C;
 }
@@ -10,7 +9,7 @@ body {
 h1 {
   margin: 50px auto 0 auto;
   font-family: 'Montserrat', cursive;
-  color: #f8f8f2;
+  color: #F8F8F2;
   font-size: 5.625rem; /*100% = 1em = 16px, so 90/16 = 5.625 * 100 = 562.5 */
   line-height: 1.5;
 }
@@ -46,7 +45,7 @@ p {
 }
 
 hr {
-  border: dotted 8px #E5EFC1;
+  border: dotted 8px #F8F8F2;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
@@ -59,10 +58,10 @@ hr {
   font-weight: 400;
 }
 .introduction {
-  width: 80%;
+  width: 85%;
   margin: 100px auto;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 .skills {
   margin-top: 80px;
@@ -113,25 +112,25 @@ hr {
 }
 
 .graph-gif {
-  width: 15%;
+  width: 25%;
   float: left;
   margin-right: 30px;
 }
 
 .computational-gif {
-  width: 15%;
+  width: 25%;
   float: right;
   margin-left: 30px;
 }
 
 .brain-gif {
-  width: 15%;
+  width: 25%;
   float: left;
   margin-right: 30px;
 }
 
 .terminal-gif {
-  width: 15%;
+  width: 25%;
   float: right;
   margin-left: 30px;
 }
@@ -150,7 +149,7 @@ hr {
 }
 
 .btn:hover {
-  background:  #482e85;
+  background:  #FFA32B;
   text-decoration: none;
 }
 
