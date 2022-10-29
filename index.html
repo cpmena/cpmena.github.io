@@ -2,102 +2,209 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
-  <title>Carlos Mena's website</title>
-  <link rel="icon" href="favicon.ico">
+  <title>Carlos' Website</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400;1,900&family=Montserrat:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Fira+Mono:wght@400;500;700&family=Esteban&family=Sacramento&display=swap" rel="stylesheet"></head>
+  <link href="https://fonts.googleapis.com/css2?family=Esteban&family=Fira+Mono:wght@400;500;700&family=Montserrat&family=Ubuntu+Mono:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+    
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <!-- <a class="navbar-brand" href="#">Carlos' site</a> -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">CV</a>
-          <a class="nav-link" href="#">Publications</a>
-          <a class="nav-link" href="#">Blogs</a>
+
+      <!-- Title -->
+      
+<main>
+  <div class="container py-4">
+    <header class="pb-3 mb-4 border-bottom">
+      <!-- Navegation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Carlos Mena</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Publications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <div class="text-secondary px-4 py-5 text-center">
+    <div class="py-4">
+      <h1 class="display-1 fw-bold text-white">I'm Carlos.</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-4 mb-3 text-green" id="subs">a former clinical psychologist doing computational psychiatry</p>
+      </div>
+    </div>
+  </div>
+  <div class="p-6 mb-4 text-white text-center">
+    <div class="container-fluid py-5">
+      <img class="mb-4 mx-auto img-fluid profile-picture" src="images/profilePictureCircleSmall.png" alt="profile-picture">
+      <h2 class="display-5 fw-bold text-green">Hi.</h2>
+      <p class="col-md-8 lead mx-auto">I'm a PhD student working with Prof Oliver Robinson at the Institute of Cognitive Neuroscience at UCL in London, UK. I am studying the neural and computational mechanisms underlying pathological anxiety and its treatments.</p>
+    </div>
+  </div>
+  <hr>
+  <div class="px-4 py-5 my-4 text-center text-white">
+    <h2 class="display-5 fw-bold text-green">My Interests.</h2>
+    <div class="col-md-8 mx-auto">
+      <p class="mb-4 lead">I'm interested in understanding the mechanisms underpinning anxiety, mood, psychosis and personality disorders. Particularly, I am interested in how computational modelling can help us shed light into the wide diversity of trajectories seen in mental disorders. At the moment I am using Reinforcement Learning to try to understand how symptom change occurs in anxiety disorders following psychological interventions.</p>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="b-example-divider"></div>
+
+  <hr>
+
+  <div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3 text-white">
+        <h2 class="display-6 fw-bold lh-1">Selected Publication.</h2>
+        <h3 class="fw-bold lh-1">Modelling Pavlovian Bias in Anxiety and Depression Patients</h3>
+        <p class="lead">In this study, we description of the study in a general way. Basically a lay summary of the paper, describing the general background, methods, objectives, results and why this research is important. Discuss the impact of it at more length in the "Read more" section.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+          <button type="button" class="btn btn-secondary btn-lg px-4 me-md-2 fw-bold">Read more</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">See more publications</button>
+        </div>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="images/bootstrap-docs.png" alt="" width="720">
+      </div>
+    </div>
+  </div>
+  <div class="b-example-divider"></div>
+
+    <div class="container px-4 py-5 text-white" id="hanging-icons">
+      <h2 class="display-5 fw-bold pb-2 border-bottom mt-5 text-center">My Skills</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-bg-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+              <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-green">Data analysis and Modelling</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-bg-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+              <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-green">Neuroimaging</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-bg-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+              <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
+            </svg>
+
+          </div>
+          <div>
+            <h3 class="fs-2 text-green">Coding and IT</h3>
+            <p>R, Python, Matlab, Bash (Unix Shell), HTML, CSS, JavaScript, Linux systems.</p>
+          </div>
         </div>
       </div>
     </div>
-  </nav>
-  <div class="top-container container-fluid">
-    <!-- <img class="top-cloud" src="images/cloud.png" alt="cloud-img"> -->
-    <h1>I'm Carlos.</h1>
-    <h2 class="subtitle" id="subs">a clinical psychologist and PhD student.</h2>
-    <!-- <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img"> -->
-    <!-- <img src="images/mountain.png" alt="mountain-img"> -->
-  </div>
-  <div class="middle-container container-fluid">
-    <div class="profile">
-      <img class="profile-picture" src="images/profilePictureCircle.png" alt="profile-picture">
-      <h2>Hi.</h2>
-      <p class="introduction">I'm a PhD student working with Prof Oliver Robinson at the Institute of Cognitive Neuroscience at UCL in London, UK. I am studying the neural and computational mechanisms underlying pathological anxiety and its treatments.</p>
-    </div>
-    <hr>
-    <div class="publications">
-      <h2>My Publications.</h2>
-    </div>
-    <hr>
-    <div class="interests">
-      <h2>My Interests.</h2>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <!-- <img class="graph-gif" src="images/graph.gif" alt="graph-gif"> -->
-        <h3>Data Analysis and Statistics</h3>
-        <p>Description.</p>
+
+    <div class="b-example-divider"></div>
+
+    <div class="px-4 py-5 my-3 text-center text-white bg-grey">
+    <h2 class="display-4 fw-bold">Get in touch.</h2>
+    <h3 class="text-green fw-bold">I'm available for collaborations.</h3>
+    <div class="col-lg-6 mx-auto">
+      <p class="mt-5 lead mb-4">If you have an idea for a collaboration or just fancy saying hi, then get in touch.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a type="button" class="btn btn-outline-warning btn-lg px-4 gap-3" href="mailto:name@email.com">CONTACT ME</a>
       </div>
-      <div class="skill-row">
-        <!-- <img class="computational-gif" src="images/computational2.gif" alt="computational-gif"> -->
-        <h3> Computational Modelling</h3>
-        <p>Description.</p>
-      </div>
-      <div class="skill-row">
-        <!-- <img class="brain-gif" src="images/brain.gif" alt="brain-gif"> -->
-        <h3>Neuroimaging</h3>
-        <p>Description.</p>
-      </div>
-      <div class="skill-row">
-        <!-- <img class="terminal-gif" src="images/terminal.gif" alt="terminal.gif"> -->
-        <h3>Programming & IT</h3>
-        <p>R, Python, Matlab, Bash (Unix Shell), HTML, CSS, JavaScript, Linux systems.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch.</h2>
-      <h3>I am available for collaborations.</h3>
-      <p class="contact-message">If you have an idea for a collaboration or just fancy saying hi, then get in touch.</p>
-      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
     </div>
   </div>
 
-
-  <div class="bottom-container">
-    <a class="footer-link" href="https://github.com/cpmena">GitHub</a>
-    <a class="footer-link" href="https://www.orcid.org/">ORCID</a>
-    <a class="footer-link" href="https://scholar.google.com/citations?user=zhSjnw0AAAAJ&hl=en">Google Scholar</a>
-    <a class="footer-link" href="https://twitter.com/carlmena">Twitter</a>
-    <p class="copyright">© 2022 Carlos Mena.</p>
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="https://github.com/cpmena" class="nav-link px-2 text-muted">GitHub</a></li>
+        <li class="nav-item"><a href="https://orcid.org/0000-0003-2189-8676" class="nav-link px-2 text-muted">ORCID</a></li>
+        <li class="nav-item"><a href="https://scholar.google.com/citations?user=zhSjnw0AAAAJ&hl=en" class="nav-link px-2 text-muted">Google Scholar</a></li>
+        <li class="nav-item"><a href="https://twitter.com/carlmena" class="nav-link px-2 text-muted">Twitter</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2022 Carlos Mena</p>
+    </footer>
   </div>
+  <!-- <footer class="pt-3 mt-4 text-muted border-top"> -->
+  <!--   <div class="col-6 col-md-2 mb-3"> -->
+  <!--     <h5>Section</h5> -->
+  <!--     <ul class="nav flex-column"> -->
+  <!--       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li> -->
+  <!--       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li> -->
+  <!--       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li> -->
+  <!--       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li> -->
+  <!--       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li> -->
+  <!--     </ul> -->
+  <!--   </div> -->
+  <!--     <a class="footer-link" href="https://github.com/cpmena">GitHub</a> -->
+  <!--     <a class="footer-link" href="https://www.orcid.org/">ORCID</a> -->
+  <!--     <a class="footer-link" href="https://scholar.google.com/citations?user=zhSjnw0AAAAJ&hl=en">Google Scholar</a> -->
+  <!--     <a class="footer-link" href="https://twitter.com/carlmena">Twitter</a> -->
+  <!--     <p class="copyright">© 2022 Carlos Mena.</p> -->
+  <!--   &copy; Carlos Mena 2022 -->
+  <!-- </footer> -->
+</main>
 
-  
+
+      
+
+
+
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
+  <script src="index.js"></script>
 </body>
 
 </html>
+
