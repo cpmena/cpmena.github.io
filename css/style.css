@@ -32,3 +32,6 @@ hr {
   width: 4%;
   margin: 100px auto;
 }
+#smiley{
+  font-family: 'Ubuntu Mono', serif !important;
+}
