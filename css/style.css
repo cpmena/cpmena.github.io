@@ -1,0 +1,34 @@
+body {
+background-color: #22212C;
+font-family: 'Ubuntu', serif;
+}
+
+.navbar-custom {
+/* background-color: #22212C; */
+background-color: #353345; 
+}
+
+.text-green {
+  /* text-align: center; */
+  color: #00C894;
+}
+
+h2 {
+  /* text-align: center; */
+  color: #00C894;
+
+.bg-grey {
+  /* text-align: center; */
+  background-color: #353345 !important; 
+}
+
+.profile-picture{
+  width: 2%;
+}
+
+hr {
+  border: dotted 8px #F8F8F2;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
