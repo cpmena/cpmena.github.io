@@ -3,6 +3,11 @@ background-color: #22212C;
 font-family: 'Ubuntu', serif;
 }
 
+h2 {
+  /* text-align: center; */
+  color: #00C894;
+}
+
 .navbar-custom {
 /* background-color: #22212C; */
 background-color: #353345; 
@@ -13,25 +18,20 @@ background-color: #353345;
   color: #00C894;
 }
 
-h2 {
-  /* text-align: center; */
-  color: #00C894;
-
 .bg-grey {
   /* text-align: center; */
   background-color: #353345 !important; 
 }
 
 .profile-picture{
-  width: 2%;
+  width: 25%;
 }
 
-hr {
-  border: dotted 8px #F8F8F2;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
+.text-code{
+  font-family: 'Ubuntu Mono' !important;
+  font-weight: bold;
 }
+
 #smiley{
   font-family: 'Ubuntu Mono', serif !important;
 }
