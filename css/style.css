@@ -20,6 +20,17 @@ hr {
 background-color: #353345; 
 }
 
+.my-logo{
+  max-width: 80px;
+
+}
+.my-brand {
+  color: #00C894;
+  background-color: 22212C;
+  font-size: 2.5rem;
+  font-weight:bold;
+  width: 40px;
+}
 .text-green {
   /* text-align: center; */
   color: #00C894;
